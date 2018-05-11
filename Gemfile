@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-reloader', require: false
-gem 'sinatra-activerecord', :require => 'sinatra/active record'
+gem 'sinatra-activerecord', :require => 'sinatra/active_record'
 gem 'activerecord', :require => 'active_record'
 gem 'shotgun'
 gem 'sqlite3'
@@ -15,5 +15,5 @@ group :test do
   gem 'rspec'
   gem 'rack-test'
   gem 'capybara'
-  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git' 
+  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 end
