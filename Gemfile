@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-reloader', require: false
 gem 'shotgun'
+gem 'sqlite3'
 gem 'pry'
 gem 'tux'
 gem 'require_all'
